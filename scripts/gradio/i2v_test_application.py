@@ -2,7 +2,7 @@ import os
 import time
 from omegaconf import OmegaConf
 import torch
-from scripts.evaluation.funcs import load_model_checkpoint, save_videos, batch_ddim_sampling, get_latent_z
+from scripts_dynamicrafter.evaluation.funcs import load_model_checkpoint, save_videos, batch_ddim_sampling, get_latent_z
 from utils.utils import instantiate_from_config
 from huggingface_hub import hf_hub_download
 from einops import repeat
